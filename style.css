@@ -1,0 +1,140 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+
+:root{
+    --primary-color: #1E40AF;
+    --light-white: #F3F4F6;
+    --font-color: #1E3A8A;
+    --light-blue: #1D4ED8;
+    --bg-blue: #EFF6FF;
+    --bg-blue2: #BFDBFE;
+    --blue400: #60A5FA;
+    --blue300: #BFDBFE;
+    --secondary-color :#A21CAF;
+    --gray-color:#374151;
+    --off-white: #f6f8fa;
+}
+
+body{
+    background-color:var(--light-white);
+    font-family: 'Montserrat', sans-serif;
+    margin:auto;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.section{
+    padding : 2rem;
+    margin : auto;
+}
+
+p{
+    padding-bottom: 1rem;
+    font-size:medium;
+}
+
+.my-image{
+    max-width : 400px;
+    margin:auto;
+    display:block;
+}
+
+.link{
+    text-decoration: none;
+    padding : 0.5rem 1rem;
+}
+
+.link-active{
+    font-weight: bold;
+    font-size: large; 
+    color : black;
+
+}
+
+
+.container{
+    max-width: 500px;
+    margin:auto;
+}
+
+.blue{
+    background-color: rgb(224, 231, 241);
+}
+
+
+.primary-link{
+    background-color:var(--secondary-color);
+    padding-top: 1rem;
+    border-radius:.5rem;
+    color:var(--off-white);
+}
+
+.section h2{
+    text-align : left;
+    padding-bottom: 1rem;
+}
+
+nav{
+    background-color :blue;
+    color : white;
+    border : 1rem 1rem;
+    border-bottom-left-radius: 25px;
+}
+
+/* .nav-list{
+    display : flex;
+    justify-content : center;
+    direction : column;
+} */
+
+.nav-list{
+    text-align : right;
+    padding : 1rem;
+}
+
+.brand{
+    padding : 1rem;
+    font-weight: 34px;
+    text-align:left;
+}
+
+.nav-items{
+    padding : .5rem 1rem;
+    display : inline;
+}
+
+.footer{
+    padding-top : 1rem;
+    text-align:center;
+    background-color: blue; 
+}
+
+.footer-list li{
+    display: inline;
+    padding : 1rem 1rem;
+}
+
+.footer-list a{
+    color :black;
+}
+
+.title{
+    text-align: center;
+    font-weight : 2rem;
+}
+
+.secondary-link{
+    border : 1px solid var(--primary-color);
+    border-radius : .5rem;
+    padding-top : 1rem;
+    color : black;
+    margin-top : 1rem;
+}
+
+.list li{
+    padding : 1rem;
+}
